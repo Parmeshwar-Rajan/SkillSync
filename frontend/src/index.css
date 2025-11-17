@@ -1,0 +1,95 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #000;
+  color: #fff;
+}
+
+.navbar, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 30px;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+ .dashboard, .home, .events {
+  width: 90%;
+  max-width: 600px;
+  margin: 60px auto;
+  /* background: white; */
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 60px auto;
+}
+
+.form-container__input-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-container__input-container input{
+  height: 28px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  border-color: #000;
+  font-weight: 700;
+}
+
+button {
+  background: #7088ff;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:100vh;
+}
+
+.event-list-container{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 28px;
+  gap:16px;
+}
+
+.event-list-container div{
+  display: flex;
+  flex-direction: column;
+  padding:28px;
+  border:1px solid rgb(39, 39, 39);
+  border-radius: 10px;
+}
+
+.title__events{
+  padding-left: 28px;
+}
+
+.events-container{
+  max-width: 60%;
+  margin:0 auto;
+}
